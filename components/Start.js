@@ -37,7 +37,7 @@ export default class Start extends React.Component {
         <ImageBackground source={BackgroundImage} resizeMode='cover' style={styles.backgroundImage}>
 
           <View style={styles.titleBox}>
-            <Text style={styles.title}>ChatApp</Text>
+            <Text style={styles.title}>Welcome to ChatApp</Text>
           </View>
 
           <View style={styles.box1}>
@@ -47,7 +47,7 @@ export default class Start extends React.Component {
                 style={styles.input}
                 onChangeText={(text) => this.setState({ name: text })}
                 value={this.state.name}
-                placeholder='Your Name'
+                placeholder='Please enter your Name'
               />
             </View>
 
