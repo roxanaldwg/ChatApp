@@ -3,7 +3,7 @@ import { GiftedChat, Bubble, SystemMessage, Day } from "react-native-gifted-chat
 import { View, Platform, KeyboardAvoidingView, StyleSheet } from 'react-native';
 
 import * as firebase from "firebase";
-import "firebase/firestore";
+import "firebase";
 
 // web app's Firebase configuration
 const firebaseConfig = {
@@ -15,7 +15,7 @@ const firebaseConfig = {
   appId: "1:178120802411:web:734a85711d9dfa9372712e"
 };
 
-export default class Chat extends Component {
+export default class Chat extends React.Component {
   constructor() {
     super();
     this.state = {
