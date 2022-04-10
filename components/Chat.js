@@ -2,8 +2,8 @@ import React from "react";
 import { GiftedChat, Bubble, SystemMessage, Day } from "react-native-gifted-chat";
 import { View, Platform, KeyboardAvoidingView, StyleSheet } from 'react-native';
 
-import * as firebase from "firebase";
-import "firebase";
+import firebase from "firebase";
+import "firebase/firestore";
 
 // web app's Firebase configuration
 const firebaseConfig = {
