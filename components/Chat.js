@@ -62,7 +62,6 @@ export default class Chat extends React.Component {
     });
   };
 
-
   componentDidMount() {
     let { name } = this.props.route.params;
     this.props.navigation.setOptions({ title: name });
@@ -159,9 +158,6 @@ export default class Chat extends React.Component {
   }
 
   render() {
-    //Updates name on chat screen
-    let name = this.props.route.params.name;
-    this.props.navigation.setOptions({ title: name });
 
     //changes bgcolor on chat screen
     const { bgColor } = this.props.route.params;
