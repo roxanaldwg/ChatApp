@@ -1,6 +1,7 @@
 import React from "react";
 import { GiftedChat, Bubble, SystemMessage, Day } from "react-native-gifted-chat";
 import { View, Platform, KeyboardAvoidingView, StyleSheet } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 
 import firebase from "firebase";
 import "firebase/firestore";
