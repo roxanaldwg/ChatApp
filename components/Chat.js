@@ -245,6 +245,7 @@ export default class Chat extends React.Component {
       <View style={styles.container}>
         <View style={{
           flex: 1,
+          flexDirection: 'column',
           backgroundColor: bgColor
         }}>
           <GiftedChat
@@ -273,7 +274,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
   },
   giftedChat: {
     color: '#000',
